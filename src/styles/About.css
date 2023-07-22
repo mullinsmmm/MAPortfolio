@@ -1,0 +1,34 @@
+.App {
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.words {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2ch;
+}
+
+h2 {
+    font-size: 1ch;
+}
+
+p {
+    font-size: 2ch;
+}
+
+img {
+    max-height: 35%;
+}
+
+

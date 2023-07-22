@@ -1,0 +1,8 @@
+.canvas {
+    float: right;
+    width: 80%;
+    outline: solid;
+    outline-width: 1px;
+    width: 78vw;
+    height: 100vh;
+}
