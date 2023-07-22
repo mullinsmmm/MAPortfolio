@@ -10,9 +10,9 @@ const PictureGallery = () => {
     <div className="canvas">
     <Scene embedded>
       <a-assets>
-        <img id="pic1" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692528113-9RLZJ08DRB5I4FA8RZKT/DJ-Hand.jpg?format=2500w" />
-        <img id="pic2" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692585152-C80DODZO6AKYAWCXOSTD/Smoking-Area-Pal.jpg?format=2500w" />
-        <img id="pic3" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692570356-VSLG1RAXLAAUU7T9L0IZ/Self-Portrait-%28Shavings%29.jpg?format=2500w" />
+        <img id="pic1" alt="painting1" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692528113-9RLZJ08DRB5I4FA8RZKT/DJ-Hand.jpg?format=2500w" />
+        <img id="pic2" alt="painting2" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692585152-C80DODZO6AKYAWCXOSTD/Smoking-Area-Pal.jpg?format=2500w" />
+        <img id="pic3" alt="painting3" src="https://images.squarespace-cdn.com/content/v1/59c269ba4c0dbf3555c8106b/1595692570356-VSLG1RAXLAAUU7T9L0IZ/Self-Portrait-%28Shavings%29.jpg?format=2500w" />
       </a-assets>
 
       <Entity id="galleryContainer">

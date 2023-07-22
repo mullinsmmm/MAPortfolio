@@ -12,7 +12,6 @@ class RectComponent extends Component {
   componentDidMount() {
     const canvas = this.canvasRef.current;
     const context = canvas.getContext('2d');
-    const { width, height } = this.props;
 
     // Set up interval (game Loop)
     const FPS = 45;
