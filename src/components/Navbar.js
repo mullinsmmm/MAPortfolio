@@ -28,6 +28,9 @@ function Navbar({ onLinkClick }) {
         <li>
           <button onClick={() => handleLinkClick('reactive-cubes')}>Cubes</button>
         </li>
+        <li>
+          <button onClick={() => handleLinkClick('ProcessingDrawing')}>Processing Drawings</button>
+        </li>
       </ul>
     </nav>
   );

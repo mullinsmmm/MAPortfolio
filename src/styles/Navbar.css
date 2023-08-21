@@ -1,40 +1,17 @@
-/* For screens smaller than 768px (e.g., mobile devices) */
-@media (max-width: 768px) {
-  .Sidebar {
-    width: 100%; /* Make the sidebar occupy the full width */
-    background-color: blue;
-  }
-
-  .Title {
-    font-size: 2rem; /* Reduce the font size for the title */
-    margin-bottom: 10px; /* Reduce the margin to save space */
-  }
-
-  li {
-    margin-bottom: 5px; /* Reduce the margin for list items */
-  }
-
-  button {
-    font-size: 1.5rem; /* Reduce the font size for buttons */
-    padding: 8px; /* Reduce the padding for buttons */
-  }
-}
-
-
 .Sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 20%;
     height: 100%;
-    background-color: green;
+    background-color: pink;
     padding: 20px;
     color:black;
   }
   
   .Title {
     display: flex;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -62,7 +39,7 @@
     text-align: left;
     text-decoration: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
   }
   

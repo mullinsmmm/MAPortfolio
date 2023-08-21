@@ -7,6 +7,7 @@ import PfiveDrawMachine from './PfiveDrawMachine';
 import ReactiveCubes from './ReactiveCubes';
 import PictureGallery from './AFrameGallery';
 import About from './About';
+import ProcDraw from './ProcessingDrawings';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState(null);
@@ -25,6 +26,7 @@ function App() {
         {activeComponent === 'threejs' && <Threejs />}
         {activeComponent === 'Drawing Machine' && <PfiveDrawMachine />}
         {activeComponent === 'reactive-cubes' && <ReactiveCubes width={1400} height={1200} />}
+        {activeComponent === 'ProcessingDrawing' && <ProcDraw />}
       </div>
     </>
   );
