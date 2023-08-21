@@ -1,0 +1,19 @@
+.textBox {
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a{
+    font-size: 2rem;
+}

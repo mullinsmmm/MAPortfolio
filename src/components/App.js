@@ -8,6 +8,8 @@ import ReactiveCubes from './ReactiveCubes';
 import PictureGallery from './AFrameGallery';
 import About from './About';
 import ProcDraw from './ProcessingDrawings';
+import Cocktail from './CocktailCompanion';
+import CS from './WebDev';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState(null);
@@ -27,6 +29,8 @@ function App() {
         {activeComponent === 'Drawing Machine' && <PfiveDrawMachine />}
         {activeComponent === 'reactive-cubes' && <ReactiveCubes width={1400} height={1200} />}
         {activeComponent === 'ProcessingDrawing' && <ProcDraw />}
+        {activeComponent === 'CocktailCompanion' && <Cocktail />}   
+        {activeComponent === 'CommandShift' && <CS />}             
       </div>
     </>
   );

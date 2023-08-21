@@ -31,6 +31,12 @@ function Navbar({ onLinkClick }) {
         <li>
           <button onClick={() => handleLinkClick('ProcessingDrawing')}>Processing Drawings</button>
         </li>
+        <li>
+          <button onClick={() => handleLinkClick('CocktailCompanion')}>Cocktail Companion</button>
+        </li>
+        <li>
+          <button onClick={() => handleLinkClick('CommandShift')}>Command Shift</button>
+        </li>
       </ul>
     </nav>
   );
