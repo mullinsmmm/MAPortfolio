@@ -4,6 +4,13 @@ import '../styles/CommandShift.css';
 const CS= () => {
   return (
     <div className="textBox">
+      <h1>What is Command Shift?</h1>
+      <p>
+        Command Shift is a part-time, online, evening Web Development Bootcamp that teaches essential skills in web development. The comprehensive curriculum covers diverse topics, including coding fundamentals, and web development essentials; running from January - August.
+        </p>
+        <p>
+          Over the course of the Definitive Practice Module I have also been enrolled on the Command Shift course, to give myself a strong foundation in Web Development. Listed here are the subjects that I learnt throughout the course, with the end of each module culminating in a project; and after the final module a group project called Cocktail Companion which is linked in the Navbar.
+        </p>
       <h1>Introduction to Coding</h1>
       <p>
         Began to learn how code projects are built up, through a series of statements;
@@ -75,8 +82,6 @@ const CS= () => {
         about the Document Object Model which acts as a map of the entire project,
         which allows for manipulation with JavaScript.
       </p>
-      <h2>Terminal Detective</h2>
-      <h2>CSS Grid Experiment</h2>
       <h1>Building Blocks of Web Development</h1>
       <p>
         JavaScript Basics: During this module I was introduced to JavaScript, a
@@ -120,10 +125,13 @@ const CS= () => {
         functionality of the code base as a whole. Using inheritance allows for
         creating relationships between code blocks within the programme.
       </p>
-      <h2>Cruiseships</h2>
-      <h2>Virtual Pet</h2>
+      <h2>Building Blocks Projects</h2>
+      <h3>Cruiseships: A Command Line Programme that docks a virtual 'ship' from different ports. Used to apply foundation coding practices</h3>
+      <a href="https://github.com/mullinsmmm/cruise-ships" target="_blank" rel="noreferrer">Cruise Ships</a>
+      <h3>Virtual Pet: A Command Line, turn-based game similar to a Tamagotchi where the play has to care for a virtual pet</h3>
+      <a href="https://github.com/mullinsmmm/virtual-pet" target="_blank" rel="noreferrer" >Virtual Pet</a>
 
-      <h1>Backend Development - WHAT IS BACKEND?</h1>
+      <h1>Backend Development</h1>
       <p>
         Dockers, Containers & Images: Instead of slow running virtual machines,
         Containers allow for quicker isolated environments that contain applications &
@@ -171,10 +179,11 @@ const CS= () => {
         which turns the database data into JavaScript to allow the programme to work
         with that data.
       </p>
-      <h2>TDD Katas</h2>
-      <h2>Music Library Database</h2>
+      <h2>Backend Projects</h2>
+      <h3>TDD Katas: Project to apply knowledge of Test Driven Development</h3>
+      <a href="https://github.com/mullinsmmm/diy-kata-3" target="_blank" rel="noreferrer">Test Driven Development Katas</a>
 
-      <h1>Frontend Development - WHAT IS FRONTEND?</h1>
+      <h1>Frontend Development</h1>
       <p>
         React Framework: I learnt how to use a React Framework, which is a component
         based approach to building web elements. An example of this could be a search
@@ -212,9 +221,13 @@ const CS= () => {
         in a search box their own desired location, this location is then matched with
         the API, and if successful returns the user's request.
       </p>
-      <h2>React Technical Test Image Search</h2>
-      <h2>Weather App</h2>
-      <h2>Surreal Estate</h2>
+      <h2>Frontend Projects</h2>
+      <h3>React Technical Test Image Search: Web App that uses a NASA API to search & render images from the NASA Archive</h3>
+      <a href="https://github.com/mullinsmmm/tech-test" target="_blank" rel="noreferrer">NASA Image Search</a>
+      <h3>Weather App: Web App that uses a Weather forcast API to present a 5 day weather forcast</h3>
+      <a href="https://github.com/mullinsmmm/weather_app" target="_blank" rel="noreferrer">Weather App</a>
+      <h3>Surreal Estate: Web App that mocks a Property Search Website</h3>
+      <a href="https://github.com/mullinsmmm/surreal-estate" target="_blank" rel="noreferrer">Surreal Estate</a>
     </div>
   );
 };

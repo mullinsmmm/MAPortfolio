@@ -32,10 +32,10 @@ function Navbar({ onLinkClick }) {
           <button onClick={() => handleLinkClick('ProcessingDrawing')}>Processing Drawings</button>
         </li>
         <li>
-          <button onClick={() => handleLinkClick('CocktailCompanion')}>Cocktail Companion</button>
+          <button onClick={() => handleLinkClick('CommandShift')}>Command Shift</button>
         </li>
         <li>
-          <button onClick={() => handleLinkClick('CommandShift')}>Command Shift</button>
+          <button onClick={() => handleLinkClick('CocktailCompanion')}>Cocktail Companion</button>
         </li>
       </ul>
     </nav>

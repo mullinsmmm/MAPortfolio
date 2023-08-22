@@ -5,7 +5,9 @@ const Cocktail = () => {
     return (
     <div className="textBox">
         <h1>Cocktail Companion</h1>
-        <a href="https://www.cocktailcompanion.bar/">www.cocktailcompanion.bar</a>
+        <a href="https://www.cocktailcompanion.bar/" target="_blank" rel="noreferrer">www.cocktailcompanion.bar</a>
+        <br></br>
+        <a href="https://github.com/josenymad/cocktail-companion/tree/main" target="_blank" rel="noreferrer">Cocktail Companion Codebase</a>
         <br></br>
         <h2>Group Project - Cocktail Companion</h2>
         <iframe 
@@ -49,7 +51,6 @@ const Cocktail = () => {
         an article to increase user engagement and made the website responsive to media
         queries.
       </p>
-        <a href="https://github.com/josenymad/cocktail-companion/tree/main">Cocktail Companion Codebase</a>
     </div>
     )
 }
